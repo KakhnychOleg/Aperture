@@ -1,0 +1,47 @@
+.review {
+   height: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+
+   &__item {
+      max-width: 300px;
+      padding-right: 60px;
+
+      @media (max-width: $breakpoint480) {
+         padding: 0 10px;
+      }
+   }
+
+   &__title {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      
+      color: $primery;
+   }
+   &__subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: $secondary;
+   }
+}
+
+.review-one {
+   background: url('../img/bg-review.png') no-repeat center center fixed;
+   background-size: cover;
+}
+
+.review-two {
+   background: url('../img/bg-review2.png') no-repeat center center fixed;
+   background-size: cover;
+}
+
+.review-three {
+   background: url('../img/bg-review3.png') no-repeat center center fixed;
+   background-size: cover;
+}

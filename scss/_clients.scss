@@ -1,0 +1,21 @@
+.clients {
+   padding: 100px 0;
+   background: $bgColor;
+   
+   @media (max-width: $breakpoint930) {
+      padding: 50px 0;
+   }
+
+   &__items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 100px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+   }
+
+   &__logo {
+      margin-top: 40px;
+   }
+}
